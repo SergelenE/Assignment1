@@ -1,18 +1,21 @@
-.banner{
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
+.info-section{
+    border:1px solid rgb(228, 224, 224);
+    margin:30px 40px;
+    border-radius: 20px;
 }
-
-.section{
-    display: flex;
-    flex-direction: column;
+.card-title{
+    margin: 30px auto;
 }
-
-.section .cardtitle{
-    display: flex;
-    flex-grow: 1;
+.see-all{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f17228;
+    border-radius: 10px;
 }
-.card-container{
-    display: flex;
+.title{
+    border-left: 8px solid #f17228;
+    padding-left: 1rem;
+}
+.see-all{
+    color:white;
 }
