@@ -1,0 +1,18 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.section .cardtitle{
+    display: flex;
+    flex-grow: 1;
+}
+.card-container{
+    display: flex;
+}
